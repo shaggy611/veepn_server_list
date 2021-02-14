@@ -1,0 +1,124 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  ._heading-first {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  ._heading-second {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .locations {
+    padding-bottom: 0px;
+  }
+
+  .locations__paragraph {
+    margin-top: 24px;
+    width: 345px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location__heading {
+  width: 345px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.locations__ul {
+  width: 345px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.locations__download-btn {
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.locations__map-img {
+  width: 345px;
+  height: 203px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+._bg-light-blue-bradius {
+  width: 345px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.server-list {
+  padding-bottom: 56px;
+}
+
+.reasons {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.reasons__ul > li {
+  width: 328px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reasons__ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reasons__device-img {
+  width: 345px;
+  height: 184px;
+  margin-top: 32px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.benefits {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.benefits__card-heading-wrapper {
+  width: 345px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefints__card-text {
+  width: 345px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benfits__paragraph {
+  margin-bottom: 32px;
+}
+
+.benfits__paragraph {
+  text-align: left;
+  width: 345px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connect {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+
+}
+
