@@ -53,7 +53,7 @@
       </section>
 
       <section class="server-list">
-        <div class="_bg-light-blue-bradius">
+        <div class="_bg-light-blue-bradius js-collapse">
           <div class="container">
             <div class="row">
               <div class="col-xl-12 col-md-12">
@@ -62,7 +62,7 @@
             </div>
             
             <div class="row">
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-3 col-sm-4 offset-sm-2">
                 <div class="server-list__flags-wrapper">
                   <div class="flag-name-wrapper">
                     <img src="./img/flag/argentina.svg" alt="argentina" class="server-list__flags" />
@@ -110,7 +110,7 @@
                 </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-3 offset-md-4">
                 <div class="server-list__flags-wrapper">
                   <div class="flag-name-wrapper">
                     <img src="./img/flag/denmark.svg" alt="denmark" class="server-list__flags" />
@@ -158,7 +158,7 @@
                 </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3 col-md-3">
                 <div class="server-list__flags-wrapper">
                   <div class="flag-name-wrapper">
                     <img src="./img/flag/italy.svg" alt="italy" class="server-list__flags" />
@@ -206,7 +206,7 @@
                 </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-md-6">
+              <div class="col-xl-3  col-md-3 offset-md-4">
                 <div class="server-list__flags-wrapper">
                   <div class="flag-name-wrapper">
                     <img src="./img/flag/southafrica.svg" alt="south" class="server-list__flags" />
@@ -256,11 +256,11 @@
               </div>
             </div>
           </div>
-          <div class="locations__collapse-btn-wrapper">
-            <button class="btn btn-link" type="button">
-              Show more countries
-            </button>
-          </div>
+        </div>
+        <div class="locations__collapse-btn-wrapper">
+          <button class="btn btn-link js-click-to-collapse" type="button">
+            Show more countries
+          </button>
         </div>
       </section>
 
@@ -366,14 +366,14 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-12 col-md-12">
-              <p class="_heading-second text-center">Connect to our VPN Servers in a Few Easy Steps</p>
-              <p class="_paragraph connect__paragraph text-center">Follow these three steps, and you will have a powerful VPN in less than five minutes. In case you have any questions, feel free to contact our <a href="#">support</a></p>
+              <p class="_heading-second connect__heading">Connect to our VPN Servers in a Few Easy Steps</p>
+              <p class="_paragraph connect__paragraph">Follow these three steps, and you will have a powerful VPN in less than five minutes. In case you have any questions, feel free to contact our <a href="#">support</a></p>
             </div>
           </div>
           <div class="row">
             <div class="col-xl-4 col-md-4">
               <div class="connect-card-wrapper">
-                <img src="/img/connect-sign-up.svg" alt="connect" class="d-block mx-auto">
+                <img src="/img/connect-sign-up.svg" alt="connect" class="d-block mx-auto connect__card-img">
                 <p class="_heading-third">1. Sign Up</p>
                 <p class="_paragraph">Choose your <a href="#">subscription plan</a> now</p>
               </div>
@@ -381,7 +381,7 @@
 
             <div class="col-xl-4 col-md-4">
               <div class="connect-card-wrapper">
-                <img src="/img/connect-download.svg" alt="download" class="d-block mx-auto">
+                <img src="/img/connect-download.svg" alt="download" class="d-block mx-auto connect__card-img">
                 <p class="_heading-third">1. Download</p>
                 <p class="_paragraph">Download our app for your device</p>
               </div>
@@ -389,7 +389,7 @@
 
             <div class="col-xl-4 col-md-4">
               <div class="connect-card-wrapper">
-                <img src="/img/connect-cn.svg" alt="connect" class="d-block mx-auto">
+                <img src="/img/connect-cn.svg" alt="connect" class="d-block mx-auto connect__card-img">
                 <p class="_heading-third">1. Connect</p>
                 <p class="_paragraph">Connect to the web well protected</p>
               </div>
