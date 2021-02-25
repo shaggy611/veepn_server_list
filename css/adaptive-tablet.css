@@ -13,17 +13,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 64px;
     text-align: center;
     width: 100%;
     border-radius: 0px 0px 10px 10px;
-    background: #ffffff;
     width: 728px;
     margin-right: auto;
     margin-left: auto;
     border-top: 1px solid #808a9b1e;
-    /* box-shadow: 1px -34px 50px 13px #707070; */
     z-index: 100;
+    height: 64px;
+    background: #ffffff;
   }
 
   ._collapsList {
@@ -37,6 +36,22 @@
     font-size: 18px;
     line-height: 22px;
     color: #3C74FE;
+    cursor: pointer;
+    /* margin-top: 90px; */
+  }
+
+  .locations__collapse-btn-wrapper > button:hover {
+    color: #3C74FE;
+  }
+
+  .locations__collapse-btn-wrapper > button:after {
+    content: url("/img/pointer-down.svg");
+    margin-left: 10px;
+  }
+
+  ._pointer-down:after {
+    content: url("/img/pointer-up.svg") !important;
+    margin-left: 10px;
   }
 
   .location__heading {
