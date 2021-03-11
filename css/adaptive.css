@@ -63,7 +63,7 @@
   margin-right: auto;
   margin-left: auto;
   border-top: 1px solid #808a9b1e;
-  /* box-shadow: 1px -34px 50px 13px #707070; */
+  box-shadow: 1px -34px 50px 13px #ffffff;
   z-index: 100;
 }
 

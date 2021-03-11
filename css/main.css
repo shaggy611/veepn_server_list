@@ -115,6 +115,7 @@ a:hover {
 
 .locations__collapse-btn-wrapper {
   display: none;
+  position: relative;
 }
 
 .locations__map-img {
@@ -157,12 +158,18 @@ a:hover {
     width: 1120px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    z-index: 99;
 }
 
 .server-list {
     padding-bottom: 80px;
     padding-top: 40px;
     background: #E9F3FF;
+}
+
+._disable-box-shadow {
+  box-shadow: none !important;
 }
 
 .server-list__heading {
